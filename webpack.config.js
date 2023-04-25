@@ -9,7 +9,6 @@ module.exports = {
         open: true, // Set to false to prevent the dev server from opening up automatically
         static: "./dist",
     },
-    devtool: "eval-source-map",
     module: {
         rules: [
             {
