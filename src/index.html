@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title><%= htmlWebpackPlugin.options.title %></title>
+    </head>
+
+    <body>
+        <div class="flex">
+            <h1 class="font centered">"<%= htmlWebpackPlugin.options.title %>"</h1>
+            <div class="canvas-container dotted-border">
+                <canvas id="code00-canvas" style="border: none" width="1280" height="720"></canvas>
+                <div id="show-overlay" class="overlay" style="display: none">
+                    <pre><strong>[X]</strong>
+                    </pre>
+                    <pre><em>(Holding shift</em></pre>
+                    <pre><em> changes action)</em></pre>
+                    <pre>  Move:</pre>
+                    <pre>Forward:   W/w</pre>
+                    <pre>Left:      A/a</pre>
+                    <pre>Backward:  S/s</pre>
+                    <pre>Right:     D/d</pre>
+                    <pre>  Look:</pre>
+                    <pre>Yaw:       Y/y</pre>
+                    <pre>Pitch:     P/p</pre>
+                    <pre>Roll:      R/r</pre>
+                    <pre>  Light:</pre>
+                    <pre>Forward:   I</pre>
+                    <pre>Backward:  K</pre>
+                    <pre>Left:      J</pre>
+                    <pre>Right:     L</pre>
+                    <pre>Up:        U</pre>
+                    <pre>Down:      O</pre>
+                    <pre>  Debug:</pre>
+                    <pre>Reset:     `</pre>
+                    <pre>Wireframe: T/t</pre>
+                </div>
+                <div id="hide-overlay" class="overlay" style="display: none">
+                    <pre><strong>[x]</strong></pre>
+                </div>
+            </div>
+            <footer class="font centered flex-end">
+                Made by <a href="https://github.com/lunkums/Eternitea">Luke Leedy</a> © 2023
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "hudToggle": "X",
+    "lightMoveForward": "I",
+    "lightMoveBack": "K",
+    "lightMoveLeft": "J",
+    "lightMoveRight": "L",
+    "lightMoveUp": "U",
+    "lightMoveDown": "O",
+    "moveForward": "W",
+    "moveBack": "S",
+    "moveLeft": "A",
+    "moveRight": "D",
+    "yaw": "P",
+    "pitch": "Y",
+    "roll": "R",
+    "reset": "`",
+    "shift": "Shift",
+    "toggleWireframe": "T"
+}

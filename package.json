@@ -1,0 +1,30 @@
+{
+    "name": "3d-lighting",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "build": "webpack --mode production",
+        "serve": "webpack serve --mode development",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^6.7.3",
+        "css-minimizer-webpack-plugin": "^5.0.0",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.7.5",
+        "style-loader": "^3.3.2",
+        "ts-loader": "^9.4.2",
+        "typescript": "^5.0.3",
+        "webpack": "^5.76.3",
+        "webpack-cli": "^5.0.1",
+        "webpack-dev-server": "^4.13.2",
+        "webpack-glsl-loader": "^1.0.1"
+    },
+    "dependencies": {
+        "twgl.js": "^5.3.1"
+    }
+}
